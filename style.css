@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  float: left;
+  width: 35%;
+  height: 900px;
+
+  background: #ccc;
+  border: 1px solid black;
+}
+@media (max-width: 600px) {
+  nav,
+  article {
+    width: 100%;
+    height: auto;
+  }
+}
+td {
+  width: 50px;
+}
+th {
+  background: blue;
+  width: 105px;
+}
+img {
+  width: 190px;
+  height: 170px;
+  margin: 5px;
+  transition: width 0.2s;
+}
+
+/*  */
+#discount {
+  border: 1px solid black;
+  margin: 5px;
+  width: 435px;
+  height: 25px;
+  padding: 5px;
+}
+#total-item {
+  border: 1px solid black;
+  margin: 5px;
+  width: 435px;
+  height: 25px;
+  padding: 5px;
+}
+#total-kembali {
+  border: 1px solid black;
+  margin: 5px;
+  width: 435px;
+  height: 25px;
+  padding: 5px;
+}
+#uang {
+  border: 1px solid black;
+  margin: 5px;
+  width: 435px;
+  height: 25px;
+  padding: 5px;
+}
+#total-price {
+  border: 1px solid black;
+  margin: 5px;
+  width: 435;
+  height: 25px;
+  padding: 5px;
+  /* float: left; */
+}
+#total-tax {
+  border: 1px solid black;
+  margin: 5px;
+  width: 435px;
+  height: 25px;
+  padding: 5px;
+  float: left;
+  text-align: right;
+}
+#total-pay {
+  border: 1px solid black;
+  margin: 5px;
+  width: 435px;
+  height: 25px;
+  padding: 5px;
+  /* float: left; */
+}
+#tab {
+  border: 1px solid black;
+  height: 400px;
+  width: 435px;
+  margin: 4px;
+  scroll-margin: 10px;
+  overflow: scroll;
+}
+#plus {
+  width: 40px;
+  height: 30px;
+}
+/*  */
+
+/* option */
+.card {
+  transition: width 0.2s;
+  float: left;
+}
+.card-price {
+  text-align: center;
+  padding: 2px;
+  margin: 5px;
+  /* border:1px solid black ; */
+  width: 190px;
+  background: gray;
+}
+.card-food {
+  /* border:1px solid black ; */
+  padding: 2px;
+  margin: 5px;
+  text-align: center;
+  width: 190px; 
+  background: rosybrown;
+}
+.solar {
+  width: 390px;
+  height: 30px;
+}
+.content {
+  float: right;
+  width: 815px;
+  height: 900px;
+  background-color: #ccc;
+}
+.txt {
+  width: 215px;
+  height: 30px;
+}
+.w {
+  padding: 5px;
+}
+.q {
+  padding: 5px;
+}
+.r {
+  padding: 5px;
+  width: 435px;
+  height: 30px;
+}
+.a {
+  float: right;
+  width: 300px;
+  border-radius: 4px;
+  height: 30px;
+  padding: 5px;
+}
+.opt {
+  width: 250px;
+  height: 30px;
+}
+.b {
+  margin: 4px;
+  width: 435px;
+  height: 30px;
+}
+.btn {
+  margin: 3px;
+  width: 140px;
+  height: 35px;
+}
+.but {
+  background-color: rgb(129, 25, 129);
+  width: 435px;
+  margin: 5px; 
+  padding: 5px; 
+  height: 60px; 
+  float: left; 
+}

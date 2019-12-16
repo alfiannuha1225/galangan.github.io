@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav>
+    <div class="w">
+      <select class="solar">
+        <option value="Customer">Customer Umum</option>
+        <option value="Pribadi">Pribadi</option>
+        <option value="Ilegal">Ilegal</option>
+        <option value="Legal">Legal</option>
+      </select>
+      <button id="plus">plus</button>
+    </div>
+    <div>
+      <form action="" class="q">
+        <input type="date" id="demo" class="txt">
+
+        <input type="number" class="txt" placeholder="Table Number">
+      </form>
+      <form action="" class="q">
+        <input id="put" onclick="search()" type="text" class="r" placeholder="Search product by code or name, you can use Bar code also">
+      </form>
+
+    </div>
+    <div id="tab">
+      <table id="nilai" style="border-collapse:collapse ;">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Qty</th>
+            <th>Harga</th>
+            <th>Total</th>
+            <th>
+              <input style="border: transparent;" type="button" value="Hapus All" onclick="history.go(0)">
+            </th>
+          </tr>
+        </thead>
+        <tbody id="ram">
+
+
+        </tbody>
+      </table>
+    </div>
+    <div class="tablecheck">
+      Total Barang :
+      <div id="total-item"></div>
+    </div>
+    <div class="ttos">
+      Total :
+      <div id="total-price"></div>
+    </div>
+    <div class="disc">
+      Discount :
+      <div id="discount"></div>
+    </div>
+    <div class="taxi">
+      Tax :
+      <div id="total-tax"></div>
+    </div>
+    <div class="total">
+      Total Payable :
+      <div id="total-pay"></div>
+    </div>
+    <!-- <div class="ros">
+        Uang :
+        <form id="uangnya" action="">
+          <input type="number" id="uang" oninput="uang_kembali(this)">
+        </form>
+      </div>
+    <div class="ros">
+      Kembalian :
+      <div id="total-kembali"></div>
+    </div> -->
+
+    <button onclick="saveTextAsFile()" style="background-color: orangered; float: left;" class="btn">Save</button>
+    <input onclick="printout()" type="button" style="background-color: orange; float: left;" value="Print Order" class="btn">
+    <button onclick="window.print()" style="background-color: seagreen; float: left;" class="btn">Print Bill</button>
+    <button onclick="window.print()" class="but">Payment</button>
+    <!-- <button style="background-color: orange; float: left;" class="btn">Prin Order</button> -->
+  </nav>
+
+  <div class="content">
+    <input type="text" class="a" placeholder="Filter Product by code or Name">
+    <select class="opt">
+      <option value="Category">All Category</option>
+      <option value="x">x</option>
+      <option value="x">x</option>
+      <option value="x">x</option>
+    </select>
+    <div id="bag1">
+      <!-- <div class="card">
+        <div class="card-header">
+          <img src="" alt="">
+        </div>
+        <div class="card-price"></div>
+        <div class="card-food"></div>
+      </div> -->
+    </div>
+  </div>
+<script src="dodol.js"></script>
+</body>
+
+</html>
+<script>
+
+</script>
