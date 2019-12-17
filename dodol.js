@@ -18,7 +18,7 @@ let makanan = {
     foods: [{
             id: 1,
             img: 'product/p2.jpg',
-            description: 'Jam tangan dan kaki',
+            description: 'JamTangan',
             harga: 2000
         },
         {
